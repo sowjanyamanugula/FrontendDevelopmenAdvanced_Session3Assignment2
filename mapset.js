@@ -54,7 +54,5 @@ mySet.has("thankyou");
 mySet.has("sorry");
 mySet.has("hi");
 
-for(var key of mySet.values())
-{
-  console.log(key);
-}
+var arr = [...stringArray];
+console.log(arr);
